@@ -8,8 +8,34 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "ViewControllerResult.h"
 
+#import <AVFoundation/AVFoundation.h>
+
+int seikaisu;
+
+@interface ViewController : UIViewController<UITextFieldDelegate>{
+    int textNum;
+    int firstNum;
+    int secondNum;
+    int keisanNum;
+    int kakuninWaru;
+    int answerNum;
+    
+    int count;
+    IBOutlet UILabel *first;
+    IBOutlet UILabel *second;
+    IBOutlet UILabel *keisan;
+    IBOutlet UILabel *seikai;
+    IBOutlet UILabel *countLabel;
+
+    
+}
+-(IBAction)tapNext:(id)sender;
+
+@property AVAudioPlayer *correct;
+
+@property AVAudioPlayer *incorrect;
 
 @end
 

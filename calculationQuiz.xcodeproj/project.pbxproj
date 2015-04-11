@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA64844E1A0D05DC008C2492 /* correct1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA64844D1A0D05DC008C2492 /* correct1.mp3 */; };
+		EA6484501A0D05F1008C2492 /* incorrect1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA64844F1A0D05F1008C2492 /* incorrect1.mp3 */; };
+		EAC427301A3BDD84005E284F /* ViewControllerResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC4272F1A3BDD84005E284F /* ViewControllerResult.m */; };
 		EAF8E81A1A00F9F400226D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF8E8191A00F9F400226D7E /* main.m */; };
 		EAF8E81D1A00F9F400226D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF8E81C1A00F9F400226D7E /* AppDelegate.m */; };
 		EAF8E8201A00F9F400226D7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF8E81F1A00F9F400226D7E /* ViewController.m */; };
@@ -27,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA64844D1A0D05DC008C2492 /* correct1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = correct1.mp3; path = "../../../素材とか/correct1.mp3"; sourceTree = "<group>"; };
+		EA64844F1A0D05F1008C2492 /* incorrect1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = incorrect1.mp3; path = "../../../素材とか/incorrect1.mp3"; sourceTree = "<group>"; };
+		EAC4272E1A3BDD84005E284F /* ViewControllerResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerResult.h; sourceTree = "<group>"; };
+		EAC4272F1A3BDD84005E284F /* ViewControllerResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerResult.m; sourceTree = "<group>"; };
 		EAF8E8141A00F9F400226D7E /* calculationQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculationQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF8E8181A00F9F400226D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF8E8191A00F9F400226D7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,7 +92,11 @@
 				EAF8E81C1A00F9F400226D7E /* AppDelegate.m */,
 				EAF8E81E1A00F9F400226D7E /* ViewController.h */,
 				EAF8E81F1A00F9F400226D7E /* ViewController.m */,
+				EAC4272E1A3BDD84005E284F /* ViewControllerResult.h */,
+				EAC4272F1A3BDD84005E284F /* ViewControllerResult.m */,
 				EAF8E8211A00F9F400226D7E /* Main.storyboard */,
+				EA64844D1A0D05DC008C2492 /* correct1.mp3 */,
+				EA64844F1A0D05F1008C2492 /* incorrect1.mp3 */,
 				EAF8E8241A00F9F400226D7E /* Images.xcassets */,
 				EAF8E8261A00F9F400226D7E /* LaunchScreen.xib */,
 				EAF8E8171A00F9F400226D7E /* Supporting Files */,
@@ -200,6 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF8E8231A00F9F400226D7E /* Main.storyboard in Resources */,
+				EA64844E1A0D05DC008C2492 /* correct1.mp3 in Resources */,
+				EA6484501A0D05F1008C2492 /* incorrect1.mp3 in Resources */,
 				EAF8E8281A00F9F400226D7E /* LaunchScreen.xib in Resources */,
 				EAF8E8251A00F9F400226D7E /* Images.xcassets in Resources */,
 			);
@@ -222,6 +235,7 @@
 				EAF8E8201A00F9F400226D7E /* ViewController.m in Sources */,
 				EAF8E81D1A00F9F400226D7E /* AppDelegate.m in Sources */,
 				EAF8E81A1A00F9F400226D7E /* main.m in Sources */,
+				EAC427301A3BDD84005E284F /* ViewControllerResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +426,7 @@
 				EAF8E8391A00F9F400226D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF8E83A1A00F9F400226D7E /* Build configuration list for PBXNativeTarget "calculationQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				EAF8E83C1A00F9F400226D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
